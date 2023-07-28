@@ -1,0 +1,191 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image:url("Bitmap.jpg");
+    background-attachment: fixed;
+}
+.body2{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image:url("bit2.jpg");
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    
+    color: #ffffff;
+}
+.header{
+    position: relative;
+}
+
+.ligne{
+  background-color: #d0d6f981;
+  padding: 0.009%;
+  width: 45%;
+  float: right;
+  position: absolute;
+  right: 46%;
+  top:55%;
+}
+.header img{
+    position: absolute;
+    top:25%;
+    left:2%;
+}
+nav{
+    position: relative;
+    float: left;
+    width: 49.5%;
+    background-color: #0b0d1796;
+    margin-left:50%;
+    padding: 1%;
+}
+nav ul{
+    margin-right: 2%;
+}
+nav ul li{
+ display: inline;
+ margin: 2%;
+
+ position: relative;
+  padding: 5% 1% 5% 1%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5% 1% 5% 1%;
+}
+a:hover{
+  border-bottom: 2px solid white;
+}
+
+
+.article1{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+
+    
+}
+.article2{
+    width: 50%;
+    position: absolute;
+    right: 5%;
+    bottom:15%;
+    
+    text-align: justify;
+    
+}
+.contain{
+    border-bottom: 1px solid #d0d6f981;
+}
+.info2{
+    float: right;
+    position: relative;
+    margin-top: -5%;
+}
+.article2 p{
+    width: 70%;
+    text-align: justify;
+}
+.article2  .switch{
+  padding: 1%;
+}
+.title2{
+    font-size: 600%;
+    font-weight: 100;
+    margin-left: 5%;
+}
+.switch ul{
+    margin-left: 10%;
+}
+.switch ul li{
+    display: inline;
+    margin-right: 2%;
+    padding: 2% 1% 2% 1%;
+}
+.switch ul li:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.switch a{
+    border-bottom: none;
+}
+.moon{
+    width: 25%;
+    font-weight: 400;
+    font-size: x-large;
+    padding:5%;
+    margin-right: 1%;
+    
+}
+aside{
+    text-align: left;
+}
+span{
+    margin-right: 3%;
+    color:#ffffffa3;
+}
+.moon img{
+    width:80%;
+    margin-top: 10%;
+    margin-left: 50%;
+    animation: destinations  20s infinite ;
+   
+    border-radius: 200%;
+}
+
+#second_dist{
+  visibility: hidden;
+}
+#third_dist{
+   visibility: hidden;}
+#fourth_dist{
+   visibility: hidden;}
+.title{
+    font-size: 500%;
+}
+section{
+    float: right;
+    margin-right: 12%;
+    color: black;
+    margin-top: -20%;
+    background-color: #ffffff;
+    padding: 10.4%;
+    padding-left: 8%;
+    border-radius: 500%;
+    font-size:200%;
+    text-align: center;
+    width:5%;
+    
+
+}
+
+section:hover{
+  box-shadow: 0px 3px 5px 40px #ffffff4f;
+  transition: ease-out 1s;
+}
+.article1 p{
+word-break: break-all;
+margin-top: 20%;
+}
+
+
+
+/*animations*/
+@keyframes destinations {
+    from{
+        transform: scale3d(0deg);
+        transform-style: preserve-3d;
+        perspective: 400px;
+    }
+    to{
+        transform: scale3d(360deg);
+        transform-style: preserve-3d;
+        perspective: 400px;
+    }
+}
